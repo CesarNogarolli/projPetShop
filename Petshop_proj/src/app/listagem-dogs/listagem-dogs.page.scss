@@ -1,0 +1,44 @@
+ion-content {
+    --ion-background-color: #fcb06d;
+    --background: url(../../assets/fundo3.png) 0 0/160%;
+}
+
+.espaco {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+    background-color: #E82A02;
+    color: antiquewhite;
+    text-align: center;
+    font-family: 'Cherry Bomb One';
+
+    ion-row {
+        display: inline-block;
+    }
+
+    h1 {
+        margin-left: 3px;
+        font-size: 2rem;
+    }
+
+    img {
+        margin-top: 1rem;
+    }
+}
+
+ion-item {
+    margin-top: 15px;
+    font-size: 1.2rem;
+
+    ion-thumbnail {
+        --border-radius: 50px;
+    }
+}
+
+ion-button {
+
+    --background: #FF0320;
+    --background-click: red;
+}

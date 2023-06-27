@@ -1,8 +1,6 @@
 ion-content {
-  --ion-background-color: #ffe7d0;
-
-
-
+  --ion-background-color: #fcb06d;
+  --background: url(../../assets/fundo3.png) 0 0/160%;
 }
 
 .espaco {
@@ -21,21 +19,13 @@ header {
   }
 
   h1 {
-    //margin-top: 5px;
     margin-left: 3px;
-    //padding: 5px;
     font-size: 3rem;
   }
 
   img {
     margin-top: 1rem;
-
   }
-
-  .invert {
-    filter: invert(85%);
-  }
-
 }
 
 ion-button {
